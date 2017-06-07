@@ -1,0 +1,62 @@
+html{
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+
+.contenedor-logo{
+  position: absolute;
+  background: url("../assets/img/fondo-degradado-morado.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-blanco{
+  width: 30%;
+  height: 22%;
+}
+
+.contenedor-gif{
+  position: absolute;
+  background: url("../assets/img/carritos.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.botones{
+  display: flex;
+  justify-content: space-around;
+}
+
+.waves-effect{
+  margin: 10px;
+}
+
+a{
+  background: rgba(187, 0, 176);
+}
+
+.btn-large{
+  text-transform: none;
+}
+
+.login{
+  background: rgba(0, 0, 0, 0);
+}
+
+.signup{
+  background: rgba(103, 0, 177, 0.5);
+}
