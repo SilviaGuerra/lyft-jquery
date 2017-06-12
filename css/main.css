@@ -4,7 +4,7 @@ html{
   position: relative;
 }
 
-
+/*fondo morado*/
 .contenedor-logo{
   position: absolute;
   background: url("../assets/img/fondo-degradado-morado.png");
@@ -59,4 +59,61 @@ a{
 
 .signup{
   background: rgba(103, 0, 177, 0.5);
+}
+
+/*sign up*/
+nav{
+  background: #fff;
+  margin: -23px;
+  height: 140px;
+}
+
+.nav-container{
+  margin-top: -21px;
+  width: 100%;
+}
+
+nav i.material-icons{
+  font-size: 74px;
+  color: #000;
+  float: left;
+  padding: 3px;
+  margin-top: 33px;
+  height: 100px;
+}
+
+.titulo-nav{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 21px;
+  color: #000;
+}
+
+.titulo-parrafo{
+  color: #000;
+  margin-top: -37px;
+}
+
+/*footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+
+}*/
+
+.lyft-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: #FFF;
+  background-color: #F400B1;
+  font-size: 16px;
+}
+
+/*poner nombre, apellido y email*/
+.container-datos{
+  padding: 30px;
 }
